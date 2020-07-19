@@ -1,5 +1,3 @@
-package guru.springframework.str1petclinic;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
