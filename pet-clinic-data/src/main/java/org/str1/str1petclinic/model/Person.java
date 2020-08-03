@@ -2,7 +2,7 @@ package org.str1.str1petclinic.model;
 
 public class Person extends BaseEntity {
     private String firstName;
-    private String listName;
+    private String lastName;
 
     public String getFirstName() {
         return firstName;
@@ -12,11 +12,11 @@ public class Person extends BaseEntity {
         this.firstName = firstName;
     }
 
-    public String getListName() {
-        return listName;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setListName(String listName) {
-        this.listName = listName;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 }
